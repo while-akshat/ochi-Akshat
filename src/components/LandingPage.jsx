@@ -27,10 +27,12 @@ function LandingPage() {
             {item}
           </p>
         ))}
-        <div className="px-5 py-2 border-zinc-500 font-light text-sm capitalize border-[2px] rounded-full flex items-center gap-5">
+        <div className="px-5 py-2 border-zinc-400 font-light text-sm capitalize border-[1px] rounded-full flex items-center gap-5">
           start the project
-          <div className="border-zinc-500 border-[2px] rounded-full w-10 h-10 flex items-center justify-center">
-            <FaArrowUpLong />
+          <div className="border-zinc-400 border-[1px] rounded-full w-10 h-10 flex items-center justify-center">
+            <span className="rotate-[45deg]">
+              <FaArrowUpLong />
+            </span>
           </div>
         </div>
       </div>
