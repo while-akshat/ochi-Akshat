@@ -17,7 +17,19 @@ function LandingPage() {
           );
         })}
       </div>
-      <div className="border-t-[1px] border-zinc-800 mt-32"></div>
+      <div className="border-t-[1px] border-zinc-800 mt-32 flex justify-between items-center py-5 px-20">
+        {[
+          "For public and private companies",
+          "From the first pitch to IPO",
+        ].map((item, index) => (
+          <p className="text-md font-light tracking-tight leading-none">
+            {item}
+          </p>
+        ))}
+        <div className="px-5 py-2 border-zinc-500 font-light text-sm capitalize border-[2px] rounded-full">
+          start the project
+        </div>
+      </div>
     </div>
   );
 }
