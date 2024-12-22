@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
@@ -26,8 +27,11 @@ function LandingPage() {
             {item}
           </p>
         ))}
-        <div className="px-5 py-2 border-zinc-500 font-light text-sm capitalize border-[2px] rounded-full">
+        <div className="px-5 py-2 border-zinc-500 font-light text-sm capitalize border-[2px] rounded-full flex items-center gap-5">
           start the project
+          <div className="border-zinc-500 border-[2px] rounded-full w-10 h-10 flex items-center justify-center">
+            <FaArrowUpLong />
+          </div>
         </div>
       </div>
     </div>
