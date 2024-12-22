@@ -23,12 +23,14 @@ function LandingPage() {
           "For public and private companies",
           "From the first pitch to IPO",
         ].map((item, index) => (
-          <p className="text-md font-light tracking-tight leading-none">
+          <p className="text-lg font-light tracking-tight leading-none">
             {item}
           </p>
         ))}
-        <div className="px-5 py-2 border-zinc-400 font-light text-sm capitalize border-[1px] rounded-full flex items-center gap-5">
-          start the project
+        <div className="flex gap-3">
+          <div className="px-5 py-2 border-zinc-400 font-light text-md uppercase border-[1px] rounded-full  items-center ">
+            start the project
+          </div>
           <div className="border-zinc-400 border-[1px] rounded-full w-10 h-10 flex items-center justify-center">
             <span className="rotate-[45deg]">
               <FaArrowUpLong />
