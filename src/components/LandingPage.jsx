@@ -11,9 +11,14 @@ function LandingPage() {
         ) {
           return (
             <div className="masker ">
-              <h1 className=" uppercase font-['Founders_Grotesk '] leading-[6vw] tracking-tighter font-semibold text-[7.5vw]">
-                {item}
-              </h1>
+              <div className="w-fit flex ">
+                {index === 1 && (
+                  <div className="w-[9vw] h-[5vw] bg-red-500 relative top-[1.5vw]"></div>
+                )}
+                <h1 className=" uppercase font-['Founders_Grotesk_X-Condensed '] leading-[7.5vw] tracking-tighter font-[700] text-[7vw] flex ">
+                  {item}
+                </h1>
+              </div>
             </div>
           );
         })}
