@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function Eyes() {
   const [rotate, setRotate] = useState(0);
+
   useEffect(() => {
     window.addEventListener("mousemove", function (e) {
       let mouseX = e.clientX;
