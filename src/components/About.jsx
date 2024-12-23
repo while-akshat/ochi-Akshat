@@ -17,7 +17,7 @@ function About() {
           </button>
         </div>
         <div
-          className="w-1/2 h-[70vh] rounded-3xl 
+          className="w-1/2 h-[70vh] rounded-3xl bg-[#94a74f] 
 ] "
         ></div>
       </div>
