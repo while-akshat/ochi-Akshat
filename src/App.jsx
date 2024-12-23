@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="w-full min-h-screen  text-white bg-zinc-900">
+    <div className="w-full min-h-[100vh]  text-white bg-zinc-900">
       <Navbar />
       <LandingPage />
       <Marquee />

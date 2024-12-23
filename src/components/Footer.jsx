@@ -4,7 +4,7 @@ function Footer() {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className="flex gap-5 w-full h-screen p-20 bg-zinc-900 ">
+    <div className="flex gap-5 w-full h-[110%] p-20 bg-zinc-900 ">
       <div
         className="w-1/2 h-full flex flex-col justify-between 
  border-r-[1px] border-zinc-800
