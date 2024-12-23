@@ -1,12 +1,16 @@
 import React from "react";
 import LocomotiveScroll from "locomotive-scroll";
-// border-r-2
 function Footer() {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className="flex gap-5 w-full h-screen p-20 bg-zinc-900">
-      <div className="w-1/2 h-full flex flex-col justify-between ">
+    <div className="flex gap-5 w-full h-screen p-20 bg-zinc-900 ">
+      <div
+        className="w-1/2 h-full flex flex-col justify-between 
+ border-r-[1px] border-zinc-800
+      
+      "
+      >
         <div className="heading">
           <h1 className="text-[7vw] font-[1000] uppercase leading-none">
             Eye-
@@ -58,20 +62,36 @@ function Footer() {
             Twitter
           </a>
         </div>
-        <div className="dets mt-[15rem] flex w-full justify-between">
-          <a className="block text-xl font-medium" href="#">
-            Home
-          </a>
-          <a className="block text-xl font-medium" href="#">
-            About
-          </a>
-          <a className="block text-xl font-medium" href="#">
-            Play
-          </a>
+        <div className="flex justify-between w-full">
+          <div className="dets mt-[5rem] gap-10 flex flex-col ">
+            <a className="block text-xl font-medium" href="#">
+              Home
+            </a>
+            <a className="block text-xl font-medium" href="#">
+              About
+            </a>
+            <a className="block text-xl font-medium" href="#">
+              Play
+            </a>
+          </div>
+          <div className="dets mt-[5rem] gap-10 flex flex-col ">
+            <a className="block text-xl font-medium" href="#">
+              link1
+            </a>
+            <a className="block text-xl font-medium" href="#">
+              link2
+            </a>
+            <a className="block text-xl font-medium" href="#">
+              link3
+            </a>
+          </div>
         </div>
-        <div className="dets mt-[5rem] flex w-full justify-between">
+        <div className="dets mt-[5rem] flex justify-between gap-10">
           <a className="block text-xl font-medium" href="#">
             link1
+          </a>
+          <a className="block text-xl font-medium" href="#">
+            link2
           </a>
           <a className="block text-xl font-medium" href="#">
             link2
