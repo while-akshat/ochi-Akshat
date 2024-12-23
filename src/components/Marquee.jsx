@@ -1,9 +1,15 @@
 import { motion } from "motion/react";
 import React from "react";
-
+import LocomotiveScroll from "locomotive-scroll";
 function Marquee() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="w-full py-20 rounded-tl-3xl rounded-tr-3xl bg-[#004d43]">
+    <div
+      data-scroll
+      data-scroll-speed=".1"
+      data-scroll-section
+      className="w-full py-20 rounded-tl-3xl rounded-tr-3xl bg-[#004d43]"
+    >
       <div className="text border-t-2 border-b-2 border-zinc flex  overflow-hidden whitespace-nowrap ">
         <motion.h1
           initail={{ x: 0 }}

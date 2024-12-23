@@ -1,10 +1,16 @@
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "motion/react";
+import LocomotiveScroll from "locomotive-scroll";
 
 function LandingPage() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-speed="-.3"
+      className=" w-full h-screen bg-zinc-900 pt-1"
+    >
       <div className="textStructure mt-52 px-20">
         {["We Create", "Eye-Opening", "Presentations"].map(function (
           item,
