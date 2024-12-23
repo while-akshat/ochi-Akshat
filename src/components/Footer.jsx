@@ -1,5 +1,5 @@
 import React from "react";
-
+// border-r-2
 function Footer() {
   return (
     <div className="flex gap-5 w-full h-screen p-20 bg-zinc-900">
@@ -44,6 +44,39 @@ function Footer() {
         <h1 className="text-[6vw] tracking-tighter font-[1000] uppercase leading-none">
           Presentations
         </h1>
+        <div className="dets mt-10 ">
+          <a className="block my-10 text-xl font-medium" href="#">
+            Facebook
+          </a>
+          <a className="block my-10 text-xl font-medium" href="#">
+            Instagram
+          </a>
+          <a className="block my-10 text-xl font-medium" href="#">
+            Twitter
+          </a>
+        </div>
+        <div className="dets mt-[15rem] flex w-full justify-between">
+          <a className="block text-xl font-medium" href="#">
+            Home
+          </a>
+          <a className="block text-xl font-medium" href="#">
+            About
+          </a>
+          <a className="block text-xl font-medium" href="#">
+            Play
+          </a>
+        </div>
+        <div className="dets mt-[5rem] flex w-full justify-between">
+          <a className="block text-xl font-medium" href="#">
+            link1
+          </a>
+          <a className="block text-xl font-medium" href="#">
+            link2
+          </a>
+          <a className="block text-xl font-medium" href="#">
+            link3
+          </a>
+        </div>
       </div>
     </div>
   );
