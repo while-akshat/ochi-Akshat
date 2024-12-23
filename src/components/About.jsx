@@ -16,7 +16,10 @@ function About() {
             <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[70vh] rounded-3xl bg-[#abd417] "></div>
+        <div
+          className="w-1/2 h-[70vh] rounded-3xl 
+] "
+        ></div>
       </div>
     </div>
   );
