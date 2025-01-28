@@ -16,7 +16,7 @@ A stunning modern portfolio website featuring 3D elements and smooth animations.
 
 ## 🔥 Live Demo
 
-https://github.com/user-attachments/assets/f656f5ed-85c0-4daa-a41b-c2a1309b356d
+[https://github.com/user-attachments/assets/f656f5ed-85c0-4daa-a41b-c2a1309b356d](https://github.com/user-attachments/assets/ac3920b6-9965-4206-a065-dacdc9d3a556)
 
 ## 🛠️ Installation
 
