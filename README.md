@@ -6,7 +6,7 @@ A stunning modern portfolio website featuring 3D elements and smooth animations.
 
 ## ✨ Features
 
-- **3D Visuals** powered by Three.js
+
 - Smooth animations with **Framer Motion**
 - Responsive design with **Tailwind CSS**
 - Modern UI/UX design principles
