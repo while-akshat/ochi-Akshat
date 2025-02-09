@@ -2,7 +2,10 @@
 
 ![Image](https://github.com/user-attachments/assets/e794b7ab-f743-4177-8759-ad3dd4079a33)
 
-A stunning modern portfolio website featuring 3D elements and smooth animations. Built with React, Three.js, and modern web technologies to showcase professional work in an interactive way.
+
+visit-https://mellow-choux-1ca40a.netlify.app/
+
+A stunning modern portfolio website featuring 3D elements and smooth animations. Built with React, and modern web technologies to showcase professional work in an interactive way.
 
 ## ✨ Features
 
