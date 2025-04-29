@@ -13,7 +13,6 @@ A stunning modern portfolio website featuring 3D elements and smooth animations.
 - Smooth animations with **Framer Motion**
 - Responsive design with **Tailwind CSS**
 - Modern UI/UX design principles
-- Dark mode support
 - Interactive project showcases
 - Optimized performance with Vite
 
